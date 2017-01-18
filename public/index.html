@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>My IRC</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <h1>Bienvenue <small>sur mon IRC</small></h1>
+        </div>
+    </nav>
+
+    <section class="chat blur">
+
+        <ul class="msgList"></ul>
+
+
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <label>Message :</label>
+                <form class="form" action="">
+                    <input type="text" id="readMsg" />
+                    <button class="btn btn-default btn-success send-msg">Envoyer</button>
+                </form>
+            </div>
+        </nav>
+
+    </section>
+
+    <section id="login">
+        <form action="" class="login-chat">
+            <label class="user">Choisi ton pseudo : </label>
+            <input id="username" autocomplete="off" autofocus />
+            <button class="btn btn-default">Go chat !</button>
+        </form>
+    </section>
+
+
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+
+</html>
