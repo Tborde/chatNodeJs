@@ -44,6 +44,6 @@ $('.form').submit(function(event) {
 });
 
 socket.on('discussion', function(msg) {
-    $('.msgList').append($('<li>').html('<span class="name">' + msg.name + '</span>' + ' dit : ' + msg.text));
+    $('.msgList').append($('<li>').html('<span class="name">' + msg.name + '</span>' + ' ' + msg.text));
     scrollToBottom();
 });

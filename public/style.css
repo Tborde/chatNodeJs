@@ -13,7 +13,7 @@ ul {
 
 ul li {
     font-size: 1.1em;
-    margin : 25px;
+    margin : 30px;
 }
 
 ul li:last-child {
@@ -23,8 +23,9 @@ ul li:last-child {
 
 .name {
     padding: 10px;
-    background-color: #5cb85c;
+    background-color: rgb(52, 152, 219);
     color: white;
+    border-radius: 20px;
 }
 
 .navbar {
@@ -33,7 +34,7 @@ ul li:last-child {
 
 i {
     font-size: 1.2em;
-    color: #5cb85c;
+    color: rgb(52, 152, 219);
 }
 
 /*Fin de la partie chat*/
@@ -45,7 +46,7 @@ i {
 }
 
 #login {
-    background: rgba(92, 184, 92, 0.8);
+    background: rgba(52, 152, 219, 0.8);
     padding: 10px;
 }
 
