@@ -1,24 +1,8 @@
 /*Début de la partie chat*/
 
-#readMsg {
-    width: 90%;
-    padding: 11px!important;
-    border: 1px solid #bdc3c7;
-}
-
-.send-msg {
-    vertical-align: top!important;
-    padding: 11px!important;
-    width: 9%;
-}
-
 .chat {
     padding-top: 100px;
     padding-bottom: 100px;
-}
-
-.chat button {
-    border-radius: initial;
 }
 
 ul {
@@ -45,7 +29,11 @@ ul li:last-child {
 
 .navbar {
     padding: 10px;
-    box-shadow: 0px 0px 45px 10px rgba(184,184,184,1);
+}
+
+i {
+    font-size: 1.2em;
+    color: #5cb85c;
 }
 
 /*Fin de la partie chat*/

@@ -20,13 +20,13 @@
 
 
         <nav class="navbar navbar-default navbar-fixed-bottom">
-            <div class="container">
-                <label>Message :</label>
-                <form class="form" action="">
-                    <input type="text" id="readMsg" />
-                    <button class="btn btn-default btn-success send-msg">Envoyer</button>
-                </form>
-            </div>
+            <form role="form" class="container form" action="">
+                <div class="form-group has-feedback">
+                    <label class="control-label">Message :</label>
+                    <input type="text" id="readMsg" class="form-control" placeholder="Message" />
+                    <i class="form-control-feedback glyphicon glyphicon-send"></i>
+                </div>
+            </form>
         </nav>
 
     </section>
