@@ -84,3 +84,20 @@ i {
     border-radius: initial;
 }
 /*Fin de la partie connexion*/
+
+/*Début channels lists*/
+.channelsList a {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+ }
+
+ .channelsList a:hover {
+   background: rgba(52, 152, 219, 0.8);
+   color: #FFFFFF;
+ }
+
+ .channelsList {
+   margin: 10px;
+ }
+/*Fin channels Lists*/
